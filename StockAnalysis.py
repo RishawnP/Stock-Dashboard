@@ -22,7 +22,7 @@ pricing_data, news = st.tabs(["Pricing Data","Top 10 News"])
 
 with pricing_data:
     st.header("Price Movements")
-    updated_data = data.copy()
+    updated_data = data
     updated_data["% Change"] = data["Adj Close"] / data["Adj Close"].shift(1) -1 # finds ADJ change by day
     updated_data.dropna(inplace = True) # nemoves #N/A from first value
     st.write(updated_data)

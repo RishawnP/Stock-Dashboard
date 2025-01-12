@@ -1,5 +1,3 @@
-# Stock-Dashboard
-
 # Stock Dashboard
 
 This is a simple Stock Dashboard application built using Streamlit, Yahoo Finance API, and Plotly for data visualization. The app allows users to input a stock ticker, specify a date range, and view the corresponding stock price movements and related news.
